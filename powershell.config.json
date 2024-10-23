@@ -1,0 +1,10 @@
+{
+  "ExperimentalFeatures": [
+    "PSFeedbackProvider",
+    "PSLoadAssemblyFromNativeCode",
+    "PSNativeWindowsTildeExpansion",
+    "PSRedirectToVariable",
+    "PSSerializeJSONLongEnumAsNumber",
+    "PSSubsystemPluginModel"
+  ]
+}

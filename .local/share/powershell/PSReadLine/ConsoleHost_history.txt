@@ -1,0 +1,14 @@
+clear
+sudo mv pwsh /usr/bin/
+sudo ln -s ~/powershell/pwsh /usr/bin/pwsh
+ls -l /usr/bin/pwsh
+sudo rm /usr/bin/pwsh
+sudo ln -s ~/powershell/pwsh /usr/bin/pwsh
+sudo rm /usr/bin/pwsh
+rm -rf ~/powershell
+wget https://github.com/PowerShell/PowerShell/releases/download/v7.4.5/powershell-7.4.5-linux-arm64.tar.gz
+mkdir ~/powershell
+tar -xvf ./powershell-7.4.5-linux-arm64.tar.gz -C ~/powershell
+sudo ln -s ~/powershell/pwsh /usr/bin/pwsh
+pwsh
+$PSVersionTable.PSVersion
